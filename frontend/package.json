@@ -1,0 +1,25 @@
+{
+  "name": "agent_floris_frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontend for the Agent Floris conversational AI application built with Next.js and React.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "swr": "^2.2.0",
+    "voice-stream": "^1.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.3"
+  }
+}
